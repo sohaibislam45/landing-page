@@ -1,0 +1,95 @@
+.open-sans-unique {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 50px;
+    background-image: url('Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-sans-logofont {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-variation-settings:
+    "wdth" 100;
+}
+.logo h2 {
+    color: #6366f1;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.sign-up-btn {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    background:  #7c3aed;
+}
+
+/* Banner Styles */
+.banner {
+    min-height: 700px;
+    min-width: auto;
+    background-image: url('Assets/Hero-bg.png');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-content {
+    max-width: 1900px;
+    max-height: 237px;
+    padding: 35px;
+}
+
+.banner-heading {
+    font-size: 65px;
+    font-weight: 700px;
+    margin-bottom: 37px;
+    color: #000000;
+}
+
+.cta-btn {
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    box-shadow: 0 12px 35px rgba(99, 102, 241, 0.4);
+    background: #7c3aed;
+}
