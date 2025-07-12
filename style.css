@@ -93,3 +93,46 @@
     box-shadow: 0 12px 35px rgba(99, 102, 241, 0.4);
     background: #7c3aed;
 }
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 115px 140px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.action-text h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 23px;
+}
+
+.action-text p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight:normal;
+  margin-bottom: 25px;
+  max-width: 515px;
+}
+
+.action-image {
+  text-align: right;
+  
+}
+
+.action-image img {
+  width: 400px;
+  height: 330px;
+  border-radius: 48px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.lounch-btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
