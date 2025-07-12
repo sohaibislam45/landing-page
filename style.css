@@ -136,3 +136,42 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+/* Users Section */
+.users-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 142px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 115px 140px;
+}
+
+.users-section h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgba(37, 36, 50, 1);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.stat-item {
+  min-width: 180px;
+}
+
+.stat-item h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+  font-weight: bold;
+}
+
+.stat-item p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
