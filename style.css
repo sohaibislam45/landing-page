@@ -98,9 +98,9 @@
 .action-section {
   background-color: rgba(245, 248, 255, 1);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 115px 140px;
+  margin: 115px 140px;
   background-color: #ffffff;
   flex-wrap: wrap;
   gap: 40px;
@@ -179,7 +179,7 @@
 
 /* added testimonial */
 .testimonials {
-    margin: 30px 150px;
+    margin: 60px 150px;
   text-align: center;
 }
 
